@@ -190,6 +190,7 @@ function addWgetTask($url, $saveAs) {
         '--progress=bar:force '.
         '--tries=0 '.
         '--no-cache '.
+        '--content-disposition'.
         '--user-agent="Mozilla/5.0 (X11; Linux amd64; rv:21.0) Gecko/20100101 Firefox/21.0" '.
         '--directory-prefix="'.download_path.'" '.
         $speedLimit.
